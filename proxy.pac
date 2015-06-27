@@ -1,3 +1,4 @@
+// Proxy Auto-Config file source name flora_plus.pac
 var hasOwnProperty = Object.hasOwnProperty;
 var iproxy ='DIRECT';
 var out_gfw_proxy = 'SOCKS5 127.0.0.1:7070; PROXY 127.0.0.1:8087; SOCKS5 192.168.2.1:1080; PROXY 127.0.0.1:8118; PROXY 127.0.0.1:8080; SOCKS5 127.0.0.1:1080; SOCKS5 127.0.0.1:65500; SOCKS 127.0.0.1:1081; PROXY 192.168.5.3:2516; PROXY 192.168.2.3:2516; SOCKS5 192.168.5.1:1080';
